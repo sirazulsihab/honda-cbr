@@ -5,15 +5,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* header area */
+header{
+    background-color: #264653;
+}
 .h-frst-p{
     font-size: 14px;
-    line-height: 22p;
     font-weight: 300;
 }
 
 header h2{
     font-size: 48px;
-    line-height: 72px;
     font-weight: 600;
 }
 .h-scnd-p{
@@ -68,7 +69,9 @@ header button{
     font-weight: 600;
     letter-spacing: 0.2px;
 }
-
+img.grayscale{
+    filter: grayscale(1);
+}
 /* FAQ AREA */
 .faq-area h2{
     font-weight: 600;

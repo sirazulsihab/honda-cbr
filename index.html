@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="bg-secondary">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex align-items-center">
@@ -16,28 +16,35 @@
                         <p class="text-white h-frst-p">Computer-controlled digital transistorized with electronic advance</p>
                         <h2 class="text-uppercase text-white">Honda Cbr 300r</h2>
                         <p class="text-white h-scnd-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button  type="button" data-toggle="modal" data-target="#exampleModal">Purchase</button>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
+                        <!-- Modal Start -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                <p>This is modal</p>
+                                <h4>Are you want to buy a Motor bike?</h4>
+                                <p>You can buy a motor bike from us in most cheap rate in Bangladesh
+                                    If you want to get Best service from us. please! fill in the form below </p>
+                                    <form action="">
+                                        <input class="form-control" type="text" name="name" placeholder="input your name" id="">
+                                        <input class="form-control my-3" type="email" name="email" placeholder="input your email" id="">
+                                        <input class="form-control btn btn-success" type="submit" value="submit Data">
+                                    </form>
                                 </div>
                                 <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 <button type="button" class="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                             </div>
                         </div>
+                        <!-- Modal end -->
+                        
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -55,15 +62,16 @@
                     <h2>Fetured Bikes 2021</h2>
                     <h4 class="text-danger">Best bike collection</h4>
                 </div>
-                <div class="row">
+                <div class="row g-5">
                     <div class="col-lg-4">
-                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+
+                        <img class="img-fluid grayscale" src="images/feature-bike.jpg" alt="">
                     </div>
                     <div class="col-lg-4">
                         <img class="img-fluid" src="images/feature-bike.jpg" alt="">
                     </div>
                     <div class="col-lg-4">
-                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                        <img class="img-fluid grayscale" src="images/feature-bike.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -199,10 +207,10 @@
 
     </footer>
     
+
+  
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/f3adcd51a4.js" crossorigin="anonymous"></script>
-    
-    
-    
 </body>
 </html>
