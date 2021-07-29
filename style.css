@@ -1,0 +1,73 @@
+/* google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header area */
+.h-frst-p{
+    font-size: 14px;
+    line-height: 22p;
+    font-weight: 300;
+}
+
+header h2{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+}
+.h-scnd-p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.header button{
+    background-color: #E76F51;
+}
+.featured_bike_title h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+}
+.featured_bike_title h4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+/* happy client area */
+
+.happy-client-area .client-single{
+    border:1px solid #DEDEDE;
+    border-radius: 5px;
+    padding: 38px;
+}
+.happy-client-area p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color:#6C6C6C;
+}
+.happy-client-area h5{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+/* FAQ AREA */
+.faq-area h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #0D0925;
+}
+.faq-area h2 span{
+    color: #E76F51;
+}
+
+/* accordian area */
+
+.accordion-item button{
+    font-size: 20px;
+    font-weight: 500;
+}
