@@ -89,3 +89,34 @@ img.grayscale{
     font-size: 20px;
     font-weight: 500;
 }
+/* special offer area */
+.special_offer_area h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+}
+.special_offer_area h1{
+    font-size: 100px;
+}
+
+
+.bike_appliance_title h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #0D0925;
+}
+
+@media only screen and (max-width:768px){
+    header{
+        text-align: center;
+    }
+    .special_offer_area{
+        text-align: center;
+    }
+
+    .bike_appliance_area{
+        text-align: center;
+    }
+
+}
