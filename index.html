@@ -16,7 +16,28 @@
                         <p class="text-white h-frst-p">Computer-controlled digital transistorized with electronic advance</p>
                         <h2 class="text-uppercase text-white">Honda Cbr 300r</h2>
                         <p class="text-white h-scnd-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn btn-warning">Purchase</button>
+                        <button  type="button" data-toggle="modal" data-target="#exampleModal">Purchase</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                <p>This is modal</p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -49,8 +70,8 @@
         </section>
         <section class="happy-client-area">
             <div class="container">
-                <div class="happy-cline-title">
-                    <h2>Happy Clients says</h2>
+                <div class="happy-client-title">
+                    <h2 class="text-center my-5">Happy <span>Clients says</span></h2>
                     <div class="row gx-5">
                         <div class="col-lg-4 text-center">
                             <div class="client-single">
@@ -178,8 +199,10 @@
 
     </footer>
     
-    
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/f3adcd51a4.js" crossorigin="anonymous"></script>
+    
+    
+    
 </body>
 </html>

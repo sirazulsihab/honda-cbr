@@ -21,9 +21,14 @@ header h2{
     line-height: 24px;
     font-weight: 300;
 }
-.header button{
+header button{
+    color:#fff;
     background-color: #E76F51;
+    padding: 10px 30px;
+    border:0;
+    border-radius: 5px;
 }
+/* Featured Bike area */
 .featured_bike_title h2{
     font-weight: 600;
     font-size: 48px;
@@ -35,6 +40,16 @@ header h2{
     line-height: 21px;
 }
 /* happy client area */
+.happy-client-area h2{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+    color:#0A0826;
+}
+.happy-client-area h2 span{
+    color:#E76F51;
+}
+
 
 .happy-client-area .client-single{
     border:1px solid #DEDEDE;
