@@ -106,17 +106,3 @@ img.grayscale{
     line-height: 50px;
     color: #0D0925;
 }
-
-@media only screen and (max-width:768px){
-    header{
-        text-align: center;
-    }
-    .special_offer_area{
-        text-align: center;
-    }
-
-    .bike_appliance_area{
-        text-align: center;
-    }
-
-}

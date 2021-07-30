@@ -1,0 +1,34 @@
+@media only screen and (max-width:768px){
+    /* header area */
+    .h-frst-p{
+        padding-top:25px;
+    }
+    /* featured bike area */
+    .featured_bike_title h2{
+     
+        font-size: 2rem;
+        line-height: 2rem;
+     
+    }
+    /* faq area  */
+    .faq-area h2{
+        font-size: 2rem;
+    }
+    /* special offer area */
+    .special_offer_area h1{
+        font-size: 4rem;
+    }
+    
+    /* bike appliance area */
+    .bike_appliance_title h2{
+        font-size: 2rem;
+    }
+    .special_offer_area{
+        text-align: center;
+    }
+
+    .bike_appliance_area{
+        text-align: center;
+    }
+
+}
