@@ -57,6 +57,9 @@ header button{
     border-radius: 5px;
     padding: 38px;
 }
+.client-single i{
+    color:#E77C40;
+}
 .happy-client-area p{
     font-size: 16px;
     line-height: 26px;
